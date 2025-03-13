@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 198f322bbfe64053bc57dda952e88560, type: 3}
+  m_Name: LevelSettings
+  m_EditorClassIdentifier: 
+  BrickTypes:
+  - prefab: {fileID: 1574005398528911647, guid: a184c70545a19e141aba3a7632234f38, type: 3}
+    percentage: 90
+  - prefab: {fileID: 1574005398528911647, guid: 0e5ba5b98b76178428901bd3a2ddd089, type: 3}
+    percentage: 5
+  - prefab: {fileID: 1574005398528911647, guid: afaa26a261feded4eb1cd0bc405a8d8c, type: 3}
+    percentage: 5
+  Rows: 6
+  Columns: 10
+  Spacing: 0.1
+  StartY: 4
+  ColorList:
+  - {r: 0.22745098, g: 0.19215687, b: 1, a: 1}
+  - {r: 0.9490196, g: 0.23529412, b: 0.6509804, a: 1}
+  - {r: 1, g: 0.58431375, b: 0.20784314, a: 1}
+  - {r: 0.29411766, g: 1, b: 0.21176471, a: 1}
+  - {r: 0.007843138, g: 0.99607843, b: 0.89411765, a: 1}
